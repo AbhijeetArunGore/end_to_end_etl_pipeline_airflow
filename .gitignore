@@ -1,0 +1,48 @@
+# ============================================================
+#  Weather ETL Pipeline — .gitignore
+# ============================================================
+
+# --- Airflow / Astro ---
+.env
+airflow_settings.yaml
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+.astro/standalone/
+logs/
+airflow/logs/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+.venv/
+venv/
+.Python
+
+# --- Docker ---
+.dockerignore
+
+# --- IDEs and editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Misc ---
+astro
+.git
