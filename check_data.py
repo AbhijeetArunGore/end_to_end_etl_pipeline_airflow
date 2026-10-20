@@ -38,11 +38,11 @@ except ImportError:
 # ---------------------------------------------------------------------------
 
 def check_weather_data(
-    host: str = "postgres",
-    port: int = 5432,
-    user: str = "postgres",
-    password: str = "postgres",
-    database: str = "postgres",
+    host: str = "******",
+    port: int = XXXX,
+    user: str = "*****",
+    password: str = "*******",
+    database: str = "******",
 ) -> None:
     """Connect to PostgreSQL and display all rows in the weather_data table."""
     try:
